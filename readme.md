@@ -14,9 +14,8 @@ Production-ready valuation methods for **early-stage startups** and **establishe
 
 Each valuation method is self-contained and includes:
 
-* `valuation.py` — Executable Python implementation
+* `algorithm.py` — Executable Python implementation
 * `paper.pdf` — Academic paper (math + methodology)
-* `paper.tex` — LaTeX source
 
 ---
 
