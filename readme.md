@@ -199,9 +199,8 @@ Founder & CEO, [Siprifi](https://www.siprifi.com)
 
 ## ⭐ Support the Project
 
-* ⭐ Star this repo
-* ☕ [Buy me a coffee](https://www.buymeacoffee.com/markaliaga)
-* 🐦 [Follow on X](https://x.com/markaliaga)
+* ⭐ Star this repoS
+* 🐦 [Follow on X](https://x.com/markaliaga_)
 * 🌐 [Visit markaliaga.com](https://markaliaga.com)
 
 ---
@@ -214,4 +213,3 @@ MIT License — Free for commercial and academic use
 ---
 
 Built with ❤️ for founders worldwide.
-**Valuation shouldn’t require cash flows.** 🚀
