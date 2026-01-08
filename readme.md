@@ -87,7 +87,7 @@ cd valuation-toolkit/siprifi
 pip install numpy
 
 # Run valuation
-python valuation.py
+python algorithm.py
 ```
 
 Read the methodology:
@@ -125,16 +125,16 @@ G_z = M_z \times P^* \quad (\approx 80%+ \text{ of startup value})
 
 | Method    | Best For           | Main File                |
 | --------- | ------------------ | ------------------------ |
-| Siprifi   | Startups           | `siprifi/valuation.py`   |
-| DCF       | Mature firms       | `dcf/valuation.py`       |
-| Gordon    | Stable growth      | `gordon/valuation.py`    |
-| Multiples | Public comparables | `multiples/valuation.py` |
+| Dyamic DDM| Startups           | `Dynamic_DDM/algorithm.py`   |
+| DCF       | Mature firms       | `dcf/algorithm.py`       |
+| Gordon    | Stable growth      | `gordon/algorithm.py`    |
+| Multiples | Public comparables | `multiples/algorithm.py` |
 
 ---
 
 ## 📊 Example Valuations
 
-* 🚀 **Siprifi:** $2.34 (80% growth value)
+* 🚀 **Dynamic DDM:** $2.34 (80% growth value)
 * 💰 **DCF:** $1.87 (cash-flow based)
 * 📈 **Gordon:** $2.12 (perpetual growth)
 
@@ -145,7 +145,6 @@ G_z = M_z \times P^* \quad (\approx 80%+ \text{ of startup value})
 * Copy‑paste executable (no setup)
 * Academic rigor (papers included, citeable)
 * Startup‑optimized (no cash flows required)
-* Production‑ready (powers **siprifi.com**)
 * Fully transparent math → code
 * Modular: mix & match methods
 
