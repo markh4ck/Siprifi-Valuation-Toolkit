@@ -1,7 +1,7 @@
 # Siprifi Valuation Toolkit 🚀
 
 <p align="center">
-  <img src="https://github.com/markh4ck/valuation-toolkit/logo.png" alt="Valuation Toolkit"/>
+  <img src="https://github.com/markh4ck/Siprifi-valuation-toolkit/logo.png" alt="Valuation Toolkit"/>
 </p>
 
 Production-ready valuation methods for **early-stage startups** and **established firms**.
