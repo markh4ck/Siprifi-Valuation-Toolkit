@@ -1,8 +1,7 @@
 # Siprifi Valuation Toolkit 🚀
 
-<p align="center">
-  <img src="https://github.com/markh4ck/Siprifi-Valuation-Toolkit/tree/main/valuation-toolkit/logo.png" alt="Valuation Toolkit"/>
-</p>
+><p align="center">
+  <img src="https://raw.githubusercontent.com/markh4ck/Siprifi-Valuation-Toolkit/main/valuation-toolkit/logo.png" alt="Valuation Toolkit"/>
 
 **Author:** [Marc Aliaga](https://markaliaga.com) — Founder & CEO, [Siprifi](https://www.siprifi.com)
 
