@@ -42,7 +42,7 @@ Optimal Labor (L*): 1.45
 | DCF              | ✅ Yes             | ❌ No forecasts      |
 | Multiples        | ✅ Yes             | ❌ No peers          |
 | Classic DDM      | ✅ Yes             | ❌ No dividends      |
-| **Siprifi DDDM** | ❌ No              | ✅ Perfect fit       |
+| **Dynaimc DDM** | ❌ No              | ✅ Perfect fit       |
 
 ---
 
