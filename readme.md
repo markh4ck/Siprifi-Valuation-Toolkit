@@ -14,27 +14,6 @@ Each valuation method is self-contained and includes:
 * `algorithm.py` — Executable Python implementation
 * `paper.pdf` — Academic paper (math + methodology)
 
----
-
-## 🌟 Featured Method: Siprifi Dynamic DDM (Startup‑First)
-
-> **The only valuation method that works for cash‑flow‑less startups.**
-
-### Why it works
-
-Traditional methods fail without revenues, dividends, or peers. Siprifi models **growth optionality** directly.
-
-### Example Output
-
-```
-Siprifi Valuation: $2.34
-Going-Concern Value: $1.89 (80%+ from growth!)
-Optimal Capital (K*): 0.23
-Optimal Labor (L*): 1.45
-```
-
----
-
 ## ⚖️ Method Comparison
 
 | Method           | Needs Cash Flows? | Works for Startups? |
@@ -105,37 +84,12 @@ open paper.pdf
 
 ---
 
-## 🧮 Siprifi Core Equation
-
-**Total Value = Book Equity + Growth Optionality**
-
-[
-V_0 = \max(0, \text{Book Equity} + G_z)
-]
-
-[
-G_z = M_z \times P^* \quad (\approx 80%+ \text{ of startup value})
-]
-
----
-
 ## 🔬 Academic Foundation
 
 **Lazzati & Menichini (2018)**
 *A Dynamic Model of Firm Valuation* — The Financial Review
 
 > “Applicable to private firms, IPOs (e.g. Facebook 2012), and new projects.”
-
----
-
-## 🛠️ Available Valuation Methods
-
-| Method    | Best For           | Main File                |
-| --------- | ------------------ | ------------------------ |
-| Dyamic DDM| Startups           | `Dynamic_DDM/algorithm.py`   |
-| DCF       | Mature firms       | `dcf/algorithm.py`       |
-| Gordon    | Stable growth      | `gordon/algorithm.py`    |
-| Multiples | Public comparables | `multiples/algorithm.py` |
 
 ---
 
