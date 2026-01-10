@@ -61,14 +61,24 @@ Optimal Labor (L*): 1.45
 
 ```
 valuation-toolkit/
-├── Dynamic_DDM/             # Startups, early-stage
-│   ├── algorithm.py         # Production code
-│   ├── paper.pdf            # Academic paper
-├── Discounted_Cash_Flow/    # Discounted Cash Flow
-├── gordon/                  # Gordon Growth Model
-├── multiples/               # Market multiples
-├── rimm/                    # Residual Income Model
-└── apv/                     # Adjusted Present Value
+# Based on the business's own cash & returns
+│   ├── Discounted_Cash_Flow/        # Cash Flow is the primary driver
+│   │   ├── CAPM/                    # Calculating WACC / Cost of Equity
+│   │   └── Certainty-Equivalent/    # Risk-adjusted cash flow logic
+│   ├── ROIC-based-Valuation/        # Efficiency & Moat-driven (Gordon Growth)
+│   ├── rimm/                        # Residual Income (Accrual-based valuation)
+│   └── apv/                         # Adjusted Present Value (Best for LBOs/Debt)
+│
+# Based on market pricing of peers
+│   └── multiples/                   # Trading Comps (P/E, EV/EBITDA) & Precedents
+│
+# For high uncertainty & optionality
+│   └── Dynamic_Firm_Valuation/      # Startups, R&D, and Monte Carlo paths
+│       ├── algorithm.py
+│       └── paper.pdf
+│
+ # "Worst case" or floor valuation  
+    └── asset_based/                 # Net Asset Value (NAV) & Replacement Cost
 ```
 
 ---
